@@ -1,0 +1,25 @@
+create database event;
+use event;
+create table bookevent(
+eventid int,
+evntname varchar(10),
+name varchar(10) ,
+dob varchar(10),
+venue varchar(10),
+timing varchar(10),
+noc int,
+doe varchar(10),
+contact varchar(10)
+);
+create table login(
+    -> id int,
+    -> user varchar(20),
+    -> pass varchar(20),
+    -> sques varchar(20),
+    -> ans varchar(20),
+    -> contact int,
+    -> emailid varchar(20),
+    -> address varchar(20)
+    -> );
+Drop a column-
+alter table login drop column doe;
